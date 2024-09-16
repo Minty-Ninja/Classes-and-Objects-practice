@@ -456,7 +456,7 @@ while run:
     
         else:
             text = font1.render("You Loose !!!", True, col1)
-            text2 = font1.render("Score: ", str(score), True, col1)
+            text2 = font1.render("Score: "+ str(score), True, col1)
             
 
         screen.blit(text, (750,400))
